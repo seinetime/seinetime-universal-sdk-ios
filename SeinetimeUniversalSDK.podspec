@@ -7,7 +7,7 @@ Pod::Spec.new do |s|
     Supports iOS 11+ and Swift 5.x.
   DESC
   s.homepage         = 'https://github.com/seinetime/seinetime-universal-sdk-ios'
-  s.license          = { type: 'MIT', file: 'LICENSE' } # or whatever you prefer
+  s.license          = { :type => 'Copyright', :text => '      Copyright 2025 Seinetime, Inc. All rights reserved.\n' }
   s.author           = { 'Seinetime, Inc.' => 'contact@seinetime.ai' }
   
   # 1️⃣ Source – the ZIP with the xcframework
