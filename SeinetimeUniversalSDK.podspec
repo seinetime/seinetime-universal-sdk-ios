@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
   
   # 1️⃣ Source – the ZIP with the xcframework
   s.source           = {
-    :http => "https://github.com/seinetime/seinetime-universal-sdk-ios/raw/main/0.0.1/SeinetimeUniversalSDK.xcframework.zip"
+    :http => "https://github.com/seinetime/seinetime-universal-sdk-ios/raw/main/SeinetimeUniversalSDK/0.0.1/SeinetimeUniversalSDK.xcframework.zip"
   }
 
   s.platform         = :ios, '11.0'
@@ -24,9 +24,4 @@ Pod::Spec.new do |s|
   # 3️⃣ Build settings – exclude arm64 on simulator (if you built it that way)
   s.pod_target_xcconfig   = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
   s.user_target_xcconfig  = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
-
-  # 4️⃣ Optional – tests
-  s.test_spec 'Tests' do |test|
-    test.source_files = 'Tests/**/*.{swift,h,m}'
-  end
 end
