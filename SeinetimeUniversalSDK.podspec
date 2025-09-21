@@ -22,6 +22,6 @@ Pod::Spec.new do |s|
   s.vendored_frameworks = 'SeinetimeUniversalSDK.xcframework'
 
   # 3️⃣ Build settings – exclude arm64 on simulator (if you built it that way)
-  s.pod_target_xcconfig   = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
-  s.user_target_xcconfig  = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
+  # s.pod_target_xcconfig   = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
+  # s.user_target_xcconfig  = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
 end
