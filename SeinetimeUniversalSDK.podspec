@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
   DESC
   s.homepage         = 'https://github.com/seinetime/seinetime-universal-sdk-ios'
   s.license          = { :type => 'Copyright', :text => '      Copyright 2025 Seinetime, Inc. All rights reserved.\n' }
-  s.author           = { 'Seinetime, Inc.' => 'phuong.seinetime@gmail.com' }
+  s.author           = { 'Seinetime.AI' => 'contact@seinetime.ai' }
   
   # 1️⃣ Source – the ZIP with the xcframework
   s.source           = {
