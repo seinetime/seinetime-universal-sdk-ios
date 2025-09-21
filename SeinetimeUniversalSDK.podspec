@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
   DESC
   s.homepage         = 'https://github.com/seinetime/seinetime-universal-sdk-ios'
   s.license          = { :type => 'Copyright', :text => '      Copyright 2025 Seinetime, Inc. All rights reserved.\n' }
-  s.author           = { 'Seinetime, Inc.' => 'contact@seinetime.ai' }
+  s.author           = { 'Seinetime, Inc.' => 'phuong.seinetime@gmail.com' }
   
   # 1️⃣ Source – the ZIP with the xcframework
   s.source           = {
@@ -20,8 +20,4 @@ Pod::Spec.new do |s|
 
   # 2️⃣ Framework
   s.vendored_frameworks = 'SeinetimeUniversalSDK.xcframework'
-
-  # 3️⃣ Build settings – exclude arm64 on simulator (if you built it that way)
-  # s.pod_target_xcconfig   = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
-  # s.user_target_xcconfig  = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
 end
