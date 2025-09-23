@@ -29,15 +29,6 @@ Add this code to Info.plist and replace your writeKey
 </dict>
 ```
 
-By default, we use same WRITE_KEY for both frameworks.
-
-```xml
-<key>SeinetimeSDKConfig</key>
-<dict>
-	<key>writeKey</key>
-	<string>YOUR_WRITE_KEY_HERE</string>
-</dict>
-```
 
 Import the SeinetimeUniversalSDK module in your UIApplicationDelegate
 
@@ -65,7 +56,7 @@ Analytics will be initialized and collect data and support manually collect even
 #### Track Events
 
 ```swift
-Seinetime.track(name: "Event name", properties: [String : Any]?)
+Seinetime.track(name: "Event name", properties: [String : String]?)
 ```
 
 You can custom properties anything you want
