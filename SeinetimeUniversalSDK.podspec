@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'SeinetimeUniversalSDK'
-  s.version          = '0.0.1'   # bump this with every release
+  s.version          = '1.0.0'   # bump this with every release
   s.summary          = 'Analytics Framework from Seinetime'
   s.description      = <<-DESC
     A lightweight analytics SDK that can be dropped into any iOS app.
@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
   
   # 1️⃣ Source – the ZIP with the xcframework
   s.source           = {
-    :http => "https://github.com/seinetime/seinetime-universal-sdk-ios/raw/main/SeinetimeUniversalSDK/0.0.1/SeinetimeUniversalSDK.xcframework.zip"
+    :http => "https://github.com/seinetime/seinetime-universal-sdk-ios/raw/main/SeinetimeUniversalSDK/1.0.0/SeinetimeUniversalSDK.xcframework.zip"
   }
 
   s.platform         = :ios, '11.0'
